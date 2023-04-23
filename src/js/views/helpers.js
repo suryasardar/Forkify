@@ -15,7 +15,7 @@ export const getJson = async function(url){
     // const res = await fetch(
     //     // 'https://forkify-api.herokuapp.com/api/v2/recipes/5ed6604591c37cdc054bc886'
         // 'https://forkify-api.herokuapp.com/api/v2/recipes/5ed6604591c37cdc054bcb34'
-    //    url
+       url
     //    );
         const res =await Promise.race([fetchpro,timeout(TIMEOUT_SEC)]);
        const data =await res.json();

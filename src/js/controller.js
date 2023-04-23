@@ -5,6 +5,7 @@ import recipeview from './views/recipeview.js';
 import searchView from './views/searchview.js'
 import 'core-js/stable';
 import 'regenerator-runtime/runtime'
+import resultsview from './views/resultsview.js';
 // console.log(icons);
  
 
@@ -13,7 +14,9 @@ import 'regenerator-runtime/runtime'
 //forkify-api.herokuapp.com/v2
 
 ///////////////////////////////////////
-  
+  if(module.hot){
+    module.hot.accept();
+  }
 
 
 const controlRecipes = async function(){
@@ -44,6 +47,7 @@ recipeview.renderError();
 
 const controlSearchResults=async function(){
 try{
+  resultsview.renderspinner();
 //   //1 get search query
   const query = searchView.getQuery();
   // console.log(query);
@@ -51,7 +55,8 @@ try{
 //   //2 load searh results
 await model.loadSearchResults(query);
 // //3 render results
-console.log(model.state.search.results);
+// console.log(model.state.search.results);
+resultsview.render(model.state.search.results);
 
 }catch(err){
   console.log(err)
