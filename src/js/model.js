@@ -1,11 +1,13 @@
 import { async } from "regenerator-runtime";
-import { API_URL } from './config';
+import { API_URL , Res_Page} from './config';
 import { getJson } from "./views/helpers";
 export const state = {
     recipe: {},
     search: {
         query: '',
         results: [],
+        page:1,
+        PerPage:Res_Page,
     },
 };
 
@@ -56,5 +58,24 @@ export const loadSearchResults = async function (query) {
         console.log(`${err}`)
         throw (err);
     }
+};
+
+export const searchPerPage= function(page = state.search.page){
+    state.search.page=page;
+     
+    const start = (page-1) *state.search.PerPage;
+    const end= page*state.search.PerPage;
+    // console.log(state.search.PerPage);
+    console.log(page);
+    console.log(start, end);
+    return state.search.results.slice(start,end);
+};
+
+export const updateservings= function (newServings){
+    state.recipe.ingredients.forEach(ing => {
+        ing.quantity = (ing.quantity* newServings)/state.recipe.servings;
+        // newqt = oldqt*newservings/holeservings
+    });
+    state.recipe.servings = newServings;
 };
  

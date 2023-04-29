@@ -1,22 +1,22 @@
-7912
+7913
 35/root/projectFolder/chatapp/.vscode1682167328293731031 1
 56/root/projectFolder/chatapp/forkify-flowchart-part-2.png1680412471316988937 0
 67/root/projectFolder/chatapp/forkify-architecture-recipe-loading.png1680412471316988937 0
 56/root/projectFolder/chatapp/forkify-flowchart-part-3.png1680412471326988937 0
-50/root/projectFolder/chatapp/dist/index.e37f48ea.js1682253418268463508 0
+50/root/projectFolder/chatapp/dist/index.e37f48ea.js1682580371695004699 0
 54/root/projectFolder/chatapp/dist/index.62406edb.js.map1680516739708415033 0
 52/root/projectFolder/chatapp/dist/chatapp.3464ddca.js1680515895698427449 0
-55/root/projectFolder/chatapp/dist/index.f7626f62.css.map1682253178578460957 0
-51/root/projectFolder/chatapp/dist/index.f7626f62.css1682253178578460957 0
-53/root/projectFolder/chatapp/dist/favicon.8b2f57bf.png1682253178588460957 0
+55/root/projectFolder/chatapp/dist/index.f7626f62.css.map1682430192027598650 0
+51/root/projectFolder/chatapp/dist/index.f7626f62.css1682430192027598650 0
+53/root/projectFolder/chatapp/dist/favicon.8b2f57bf.png1682430192067598650 0
 40/root/projectFolder/chatapp/package.json1681304645288608235 0
 56/root/projectFolder/chatapp/forkify-flowchart-part-1.png1680412471316988937 0
 47/root/projectFolder/chatapp/src/img/favicon.png1680412471326988937 0
-48/root/projectFolder/chatapp/src/js/controller.js1682250852898436208 0
-54/root/projectFolder/chatapp/src/js/views/recipeview.js1682232925126527021 0
-48/root/projectFolder/chatapp/src/js/views/view.js1682234202726540617 0
+48/root/projectFolder/chatapp/src/js/controller.js1682579433494994715 0
+54/root/projectFolder/chatapp/src/js/views/recipeview.js1682580545005006544 0
+48/root/projectFolder/chatapp/src/js/views/view.js1682312237161206287 0
 54/root/projectFolder/chatapp/src/js/views/searchview.js1682232720686524845 0
-40/root/projectFolder/chatapp/src/js/views1682231697876513961 1
+40/root/projectFolder/chatapp/src/js/views1682338829734368814 1
 50/root/projectFolder/chatapp/src/sass/_preview.scss1680412471326988937 0
 49/root/projectFolder/chatapp/src/sass/_recipe.scss1680412471326988937 0
 49/root/projectFolder/chatapp/src/sass/_header.scss1680412471326988937 0
@@ -141,7 +141,7 @@
 77/root/projectFolder/chatapp/node_modules/core-js/modules/esnext.math.isubh.js1680841641675434433 0
 77/root/projectFolder/chatapp/node_modules/core-js/modules/web.url.can-parse.js1680841642345434423 0
 82/root/projectFolder/chatapp/node_modules/core-js/modules/esnext.symbol.metadata.js1680841641695434433 0
-38/root/projectFolder/chatapp/index.html1681124811823096640 0
+38/root/projectFolder/chatapp/index.html1682342970874412883 0
 74/root/projectFolder/chatapp/node_modules/core-js/modules/es.array.every.js1680841641575434434 0
 74/root/projectFolder/chatapp/node_modules/core-js/modules/es.string.link.js1680841641615434434 0
 92/root/projectFolder/chatapp/node_modules/core-js/modules/esnext.typed-array.filter-reject.js1680841641695434433 0
@@ -176,7 +176,7 @@
 86/root/projectFolder/chatapp/node_modules/core-js/modules/esnext.set.intersection.v2.js1680841641685434433 0
 87/root/projectFolder/chatapp/node_modules/core-js/modules/esnext.symbol.is-registered.js1680841641695434433 0
 73/root/projectFolder/chatapp/node_modules/core-js/modules/esnext.map.of.js1680841641665434433 0
-50/root/projectFolder/chatapp/dist/logo.726d37a8.png1682253178708460959 0
+50/root/projectFolder/chatapp/dist/logo.726d37a8.png1682430192027598650 0
 77/root/projectFolder/chatapp/node_modules/core-js/modules/esnext.array.with.js1680841641655434433 0
 73/root/projectFolder/chatapp/node_modules/core-js/modules/es.math.log1p.js1680841641585434434 0
 90/root/projectFolder/chatapp/node_modules/core-js/modules/es.aggregate-error.constructor.js1680841641565434435 0
@@ -448,7 +448,7 @@
 77/root/projectFolder/chatapp/node_modules/core-js/es/typed-array/int8-array.js1680841641905434430 0
 72/root/projectFolder/chatapp/node_modules/core-js/es/typed-array/every.js1680841641695434433 0
 72/root/projectFolder/chatapp/node_modules/core-js/es/typed-array/slice.js1680841642165434426 0
-43/root/projectFolder/chatapp/src/js/model.js1681914082374655321 0
+43/root/projectFolder/chatapp/src/js/model.js1682580638285007536 0
 79/root/projectFolder/chatapp/node_modules/core-js/es/typed-array/reduce-right.js1680841642075434427 0
 75/root/projectFolder/chatapp/node_modules/core-js/es/array-buffer/is-view.js1680841641925434429 0
 73/root/projectFolder/chatapp/node_modules/core-js/es/array-buffer/index.js1680841641855434430 0
@@ -1493,7 +1493,7 @@
 68/root/projectFolder/chatapp/node_modules/core-js/features/set/map.js1680841641975434429 0
 81/root/projectFolder/chatapp/node_modules/core-js/features/set/is-disjoint-from.js1680841641905434430 0
 75/root/projectFolder/chatapp/node_modules/core-js/features/set/delete-all.js1680841641535434435 0
-32/root/projectFolder/chatapp/dist1682253418278463508 1
+32/root/projectFolder/chatapp/dist1682580371705004699 1
 73/root/projectFolder/chatapp/node_modules/core-js/internals/math-fround.js1680841641985434428 0
 75/root/projectFolder/chatapp/node_modules/core-js/features/set/difference.js1680841641545434435 0
 71/root/projectFolder/chatapp/node_modules/core-js/features/set/filter.js1680841641725434432 0
@@ -2273,7 +2273,7 @@
 95/root/projectFolder/chatapp/node_modules/@parcel/package-manager/src/validateModuleSpecifier.js1680415124116949911 0
 58/root/projectFolder/chatapp/node_modules/yaml/dist/util.js1680415124106949911 0
 75/root/projectFolder/chatapp/node_modules/@parcel/core/src/RequestTracker.js1680415124356949908 0
-54/root/projectFolder/chatapp/dist/index.e37f48ea.js.map1682253418278463508 0
+54/root/projectFolder/chatapp/dist/index.e37f48ea.js.map1682580371705004699 0
 78/root/projectFolder/chatapp/node_modules/domelementtype/lib/esm/index.d.ts.map1680415123716949917 0
 65/root/projectFolder/chatapp/node_modules/core-js/features/promise1680841642295434424 1
 57/root/projectFolder/chatapp/node_modules/has-flag/license1680415123576949919 0
@@ -3090,7 +3090,7 @@
 79/root/projectFolder/chatapp/node_modules/core-js/full/instance/code-point-at.js1680841641465434436 0
 125/root/projectFolder/chatapp/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/side-effects-false/src/index.js1680415124256949909 0
 80/root/projectFolder/chatapp/node_modules/caniuse-lite/data/features/css-masks.js1680415124366949908 0
-51/root/projectFolder/chatapp/dist/icons.dfd7a6db.svg1682253178568460957 0
+51/root/projectFolder/chatapp/dist/icons.dfd7a6db.svg1682430192057598650 0
 77/root/projectFolder/chatapp/node_modules/css-tree/lib/lexer/prepare-tokens.js1680415124316949908 0
 70/root/projectFolder/chatapp/node_modules/core-js/full/object/assign.js1680841641365434437 0
 73/root/projectFolder/chatapp/node_modules/core-js/full/instance/unshift.js1680841642315434424 0
@@ -3429,7 +3429,7 @@
 78/root/projectFolder/chatapp/node_modules/@swc/helpers/lib/_get_prototype_of.js1680415124026949913 0
 75/root/projectFolder/chatapp/node_modules/css-tree/lib/common/TokenStream.js1680415124346949908 0
 117/root/projectFolder/chatapp/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/package-module-fallback1680415124396949907 1
-55/root/projectFolder/chatapp/src/js/views/resultsview.js1682253417928463504 0
+55/root/projectFolder/chatapp/src/js/views/resultsview.js1682339396064374841 0
 54/root/projectFolder/chatapp/node_modules/parent-module1680415123546949920 1
 78/root/projectFolder/chatapp/node_modules/@swc/helpers/lib/_write_only_error.js1680415124136949911 0
 82/root/projectFolder/chatapp/node_modules/caniuse-lite/data/features/flexbox-gap.js1680415124486949906 0
@@ -3711,7 +3711,7 @@
 82/root/projectFolder/chatapp/node_modules/@swc/helpers/src/_array_without_holes.mjs1680415124166949910 0
 91/root/projectFolder/chatapp/node_modules/@swc/helpers/lib/_unsupported_iterable_to_array.js1680415124136949911 0
 86/root/projectFolder/chatapp/node_modules/@parcel/optimizer-htmlnano/lib/svgMappings.js1680415123666949918 0
-44/root/projectFolder/chatapp/src/js/config.js1682250842398436096 0
+44/root/projectFolder/chatapp/src/js/config.js1682316346021250013 0
 93/root/projectFolder/chatapp/node_modules/@parcel/fs-search/fs-search.linux-arm-gnueabihf.node1680415124076949912 0
 75/root/projectFolder/chatapp/node_modules/core-js/full/string/virtual/big.js1680841641415434437 0
 65/root/projectFolder/chatapp/node_modules/node-gyp-build/README.md1680415123676949918 0
@@ -4377,6 +4377,7 @@
 66/root/projectFolder/chatapp/node_modules/@lezer/lr/dist/token.d.ts1680415123866949915 0
 78/root/projectFolder/chatapp/node_modules/@mischnic/json-sourcemap/package.json1680415123556949919 0
 72/root/projectFolder/chatapp/node_modules/core-js/full/iterator/reduce.js1680841642085434427 0
+58/root/projectFolder/chatapp/src/js/views/paginationview.js1682576629604964877 0
 69/root/projectFolder/chatapp/node_modules/.bin/node-gyp-build-optional1680415125696949888 0
 67/root/projectFolder/chatapp/node_modules/lightningcss/node/index.js1680415123876949915 0
 82/root/projectFolder/chatapp/node_modules/caniuse-lite/data/features/css-subgrid.js1680415124416949907 0
@@ -5777,7 +5778,7 @@
 72/root/projectFolder/chatapp/node_modules/caniuse-lite/data/regions/SO.js1680415124616949904 0
 91/root/projectFolder/chatapp/node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers1680415123556949919 1
 64/root/projectFolder/chatapp/node_modules/svgo/lib/stringifier.js1680415124166949910 0
-43/root/projectFolder/chatapp/dist/index.html1682253336158462634 0
+43/root/projectFolder/chatapp/dist/index.html1682572201424917754 0
 79/root/projectFolder/chatapp/node_modules/core-js/modules/esnext.map.map-keys.js1680841641665434433 0
 49/root/projectFolder/chatapp/node_modules/svgo/bin1680415123526949920 1
 54/root/projectFolder/chatapp/node_modules/svgo/bin/svgo1680415123556949919 0
@@ -7627,7 +7628,7 @@
 71/root/projectFolder/chatapp/node_modules/@swc/helpers/src/_to_array.mjs1680415124306949908 0
 69/root/projectFolder/chatapp/node_modules/core-js/full/array/splice.js1680841642185434425 0
 65/root/projectFolder/chatapp/node_modules/core-js/full/array/at.js1680841641405434437 0
-51/root/projectFolder/chatapp/dist/icons.21bad73c.svg1682253178528460957 0
+51/root/projectFolder/chatapp/dist/icons.21bad73c.svg1682430192077598650 0
 81/root/projectFolder/chatapp/node_modules/core-js/features/reflect/get-metadata.js1680841641805434431 0
 72/root/projectFolder/chatapp/node_modules/core-js/full/array/unique-by.js1680841642315434424 0
 67/root/projectFolder/chatapp/node_modules/core-js/full/array/some.js1680841642175434426 0

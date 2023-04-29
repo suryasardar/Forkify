@@ -6,6 +6,7 @@ import searchView from './views/searchview.js'
 import 'core-js/stable';
 import 'regenerator-runtime/runtime'
 import resultsview from './views/resultsview.js';
+import paginationview from './views/paginationview.js';
 // console.log(icons);
  
 
@@ -56,17 +57,34 @@ try{
 await model.loadSearchResults(query);
 // //3 render results
 // console.log(model.state.search.results);
-resultsview.render(model.state.search.results);
+resultsview.render(model.searchPerPage(1));
+// render initial pagination button
+paginationview.render(model.state.search);
 
 }catch(err){
   console.log(err)
 }
 };
 // controlSearchResults();
+const controlPagination = function(goToPage){
+  //render new results
+  resultsview.render(model.searchPerPage(goToPage));
+  //render new pagination buttons
+  paginationview.render(model.state.search);
+};
+const controlServings = function(newServings){
+  //update the recipe servings (in state)
+  model.updateservings(newServings);
+  //update the recipe view
+  recipeview.render(model.state.recipe);
+}
 
 const init= function(){
   recipeview.Handlerrender(controlRecipes);
+  recipeview.addHandlerServings(controlServings);
   searchView.HandlerSearch(controlSearchResults);
+  paginationview.addHandlerclick(controlPagination);
+ 
 };
 init();
 
