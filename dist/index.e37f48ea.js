@@ -2880,9 +2880,9 @@ ${ing.description}
 exports.default = new Recipeview();
 
 },{"url:../../img/icons.svg":"loVOp","fractional":"3SU56","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./view.js":"bWlJ9"}],"loVOp":[function(require,module,exports) {
-module.exports = require("a9cc8ce01ba52ae7").getBundleURL("hWUTQ") + "icons.dfd7a6db.svg" + "?" + Date.now();
+module.exports = require("441d2a7c0576c16").getBundleURL("hWUTQ") + "icons.dfd7a6db.svg" + "?" + Date.now();
 
-},{"a9cc8ce01ba52ae7":"lgJ39"}],"lgJ39":[function(require,module,exports) {
+},{"441d2a7c0576c16":"lgJ39"}],"lgJ39":[function(require,module,exports) {
 "use strict";
 var bundleURL = {};
 function getBundleURLCached(id) {
